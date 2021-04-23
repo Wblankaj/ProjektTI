@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <title>Formularz</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styl.css">
+
+</head>
+
+<body>
+
+
+    <form action="zapisDoBazy.php" method="POST" id="form" class="form">
+        <h1>
+            <p> <span class="glyphicon glyphicon-pencil"></span>Zapisz się na kurs</p>
+        </h1>
+        <h2>Dane o kursie</h2>
+        <label>Wybierz kurs:</label>
+        <select type="text" name="course">
+            <option>Kurs "Analiza danych w Pythonie" cena: 1000pln </option>
+            <option>Kurs "Wprowadzenie do R" cena: 900pln</option>
+            <option>Kurs "Nauka programowania w Pythonie" 1500pln</option>
+            <option>Kurs "Programowania Java" cena: 1300pln </option>
+            <option>Kurs "Programowanie C++" cena: 1050pln </option>
+            <option>Kurs "FrontEnd podstawy" cena: 1050pln </option>
+            <option>Kurs "Tworzenie Stron www" cena: 1050pln </option>
+            <option>Kurs "Specjalista MS Excel" cena: 1000pln </option>
+
+        </select>
+        <label>Wybierz termin kursu:</label>
+        <select type="text" name="courseDate">
+            <option>22.06.2021-29.06.2021 </option>
+            <option>22.07.2021-29.07.2021</option>
+            <option>22.08.2021-29.08.2021</option>
+            <option>22.09.2021-29.09.2021</option>
+            <option>22.10.2021-29.10.2021</option>
+            <option>22.11.2021-29.11.2021</option>
+        </select>
+        <h2>Dane osobowe</h2>
+        <label>Imię:</label><input type="text" name="name" id="name" required>
+        <div id="iname" class="form-message"></div>
+        <label>Nazwisko:</label><input type="text" name="lastName" id="lastName" required>
+        <div id="ilastname" class="form-message"></div>
+        <label>Email: </label><input type="email" name="email" required>
+        <div id="iemail" class="form-message"></div>
+        <label>Nr telefonu:</label> <input type="tel" name="phoneNumber" required>
+        <div id="iphone" class="form-message"></div>
+        <label>PESEL:</label> <input type="text" maxlength="11" minlenght="11" name="pesel" required>
+        <div id="ipesel" class="form-message"></div>
+        <label>Data urodzenia:</label> <input type="date" name="dateOfBirth" ,min="1901-01-01" , max="2007-01-01"
+            required>
+        <label>Miejsce urodzenia:</label><input type="text" name="birthPlace" required>
+        <div id="ibirthPlace" class="form-message"></div>
+
+        <h2>Miejsce zamieszkania</h2>
+        <label>Ulica i nr:</label><input type="text" name="street" required>
+        <div id="istreet" class="form-message"></div>
+        <label>Kod pocztowy:</label><label id="lb">Miasto:</label><br />
+        <input type="text" inputmode="numeric" name="zipCode" id="zipCode" required>
+        <input type="text" name="cityRes" id="cityRes" required>
+        <div id="izipCode" class="form-message"></div>
+        <div id="icity" class="form-message"></div>
+        <div class="form-footer"><input type="submit" name="submit" value="Zapisz mnie"></div>
+    </form>
+    <script src="js.js" charset="UTF-8"></script>
+
+
+
+</body>
+
+</html>

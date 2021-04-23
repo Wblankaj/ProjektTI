@@ -1,0 +1,160 @@
+body{
+    font-family:Open Sans;
+    background-color:#0A2F35;
+    padding: 20px 10px;
+    margin:0;
+}
+form{
+
+    display:block;
+    width:600px;
+   
+    background:#222;
+    border-radius:15px;
+    border:solid #999 1px;
+    float:left;
+    margin-left:calc(50% - 300px);
+    margin-top:70px;
+    margin-bottom:70px;
+    color:silver;
+
+}
+ h1 p > span{ 
+    color:white !important;
+    margin-right:20px;
+    font-size:25px;
+}
+form h1{
+background:#F7A325;
+color:#ffffff;
+text-shadow:1px 1px #333;
+margin:0 0 40px 0;
+padding:0px;
+padding-left:50px;
+border-radius:15px 15px 0 0;
+font-weight:normal;
+line-height:100px;
+
+}
+form h2{
+   
+    color:#ffffff;
+    text-shadow:1px 1px #333;
+    margin:0 0 18px 0;
+    padding:0px;
+    padding-left:50px; 
+    font-weight:normal;
+    
+    
+    
+    }
+.form-footer{
+
+    background-color:#111   ;
+    width: 100%;
+    margin-top:100px;
+    border-radius:0 0 15px 15px;
+    border-top: 1px  dashed;
+    
+}
+
+form > input{
+    margin:auto;
+    border:0;
+    padding:8px;
+    background:#444;
+    border: solid 1px #999;
+    margin-left:50px;
+    margin-top:5px;
+    margin-bottom:15px;
+    width:500px;
+  
+  
+}
+form > select{
+    margin:auto;
+    border:0;
+    padding:8px;
+    background:#444;
+    border: solid 1px #999;
+    margin-left:50px;
+    margin-top:5px;
+    margin-bottom:15px;
+    width:500px;
+  
+  
+}
+
+form input:hover{
+    border-color:white;;
+    transition-duration:0.3s;
+
+
+}
+
+.form-footer input{
+    background-color:#F7A325;
+    padding:10px 20px;
+    margin:0;
+    border:0;
+    color:white;
+    font-family:Open Sans;
+    margin:30px auto 30px 50px;
+    font-size:18px;
+    text-shadow:1px 1px #333;   
+    border-radius:15px;
+}
+form label{
+    font-weight: normal;
+}
+form label,input{
+    margin-left:50px;
+    color:#999;
+    
+}
+#zipCode{
+width:145px ;
+
+
+}
+#cityRes{
+    width:320px;
+    margin-left:35px;
+   
+}
+#lb{
+    margin-left: 88px;
+}
+.form-message{
+    margin-left:50px;
+    color:red;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+ .feedback{
+    display:block;
+    width:600px;
+   
+    background:#222;
+    border-radius:15px;
+    border:solid #999 1px;
+    float:left;
+    margin-left:calc(50% - 300px);
+    margin-top:150px;
+    margin-bottom:70px;
+    color:silver;
+} 
+.feedback label{
+    font-weight: normal;
+    margin-left:50px;
+    color:#999;
+}
+.feedback h2{
+
+    color:#ec7f26;
+    text-shadow:1px 1px #333;
+    margin:0 0 18px 0;
+    padding:0px;
+    padding-left:50px; 
+    font-weight:normal;
+}
